@@ -1,0 +1,48 @@
+.container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+form {
+    max-width: 400px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    background-color: #ccc;
+    padding: 20px;
+    text-align: center;
+}
+
+form h1 {
+    text-transform: uppercase;
+}
+
+form input {
+    /* width: 100%; */
+    padding: 5px 15px;
+    outline: none;
+    border: 2px solid transparent;
+    border-radius: 30px;
+}
+
+form input:focus {
+    border: 2px solid red;
+}
+
+.btn {
+    border: none;
+    outline: none;
+    background-color: green;
+    color: #fff;
+    padding: 5px;
+    border-radius: 30px;
+}
+
+.btn:hover {
+    background-color: cyan;
+    color: #777;
+}

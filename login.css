@@ -1,0 +1,42 @@
+.container {
+    /* vitual width */
+    width: 100vw;
+
+    /* vitual height */
+    height: 100vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+form {
+    max-width: 400px;
+    height: auto;
+    background-color: #f4f4f4;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+form h1 {
+    text-transform: uppercase;
+}
+
+form input {
+    margin-top: 10px;
+    outline: none;
+    /* top to bottom, left to right  */
+    padding: 5px 10px;
+}
+
+form label {
+    margin-top: 5px;
+}
+
+form .btn {
+    background-color: #033dee;
+    color: #fff;
+    /* size, type, color */
+    border: none;
+}
